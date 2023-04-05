@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 215px; */
+    color: rgba(255, 255, 255, 0.6);
+}
+.WebStudio_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 215px;
+}
+.place {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.email1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.number1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;  
+}
+footer {
+    width: 100%;
+    height: 250px;
+    background: rgba(47, 48, 58, 1);
+}
+.studio_footer {
+    color: $white-color;
+    margin-left: 215px;
+    margin-top: 60px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.place {
+  color: $white-color;
+}  

@@ -1,0 +1,35 @@
+.work {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $text-color;
+    margin-bottom: 30px;
+}
+.section-works {
+    display: none;
+  }
+  
+  @media screen and (min-width:1200px) {
+    .section-works {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: $text-color;
+      display: flex;
+      margin-bottom: 50px;
+    }
+    .work-list {
+      display: flex;
+    }
+  
+    .work-img {
+      width: calc((100% - 3 * 30px) / 3);
+      margin: 15px;
+    }
+  }
+  
