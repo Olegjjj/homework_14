@@ -236,7 +236,7 @@ body {
   }
 }
 .hero {
-  background-image: url("../img/mobile/background.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -299,7 +299,7 @@ body {
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/background1200.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/desktop/background1200.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/background1200.jpg");
     height: 600px;
     background-image: url("../img/background1200.jpg");
     background-repeat: no-repeat;
@@ -520,7 +520,7 @@ body {
     margin: -7.5px;
   }
   .hero {
-    background-image: url(img/mobile/background.jpg);
+    background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
